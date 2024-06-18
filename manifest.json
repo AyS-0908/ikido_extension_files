@@ -1,29 +1,41 @@
 {
-    "manifest_version": 3,
-    "name": "AI Prompt Generator",
-    "version": "1.0",
-    "description": "Generate AI prompts based on user selections and text entry.",
-    "permissions": [
-      "storage",
-      "activeTab",
-      "scripting"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_popup": "user_profile.html",
-      "default_icon": "hello_extensions.png"
-    },
-    "content_security_policy": {
-      "extension_pages": "script-src 'self'; object-src 'self'"
-    },
-    "web_accessible_resources": [
-      {
-        "resources": ["icons/*"],
-        "matches": ["<all_urls>"]
-      }
-    ],
-    "default_locale": "en"
-  }
-  
+  "manifest_version": 3,
+  "name": "AI Prompt Generator",
+  "version": "1.0",
+  "description": "Generate and paste AI prompts based on user selections and text entries.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "default_locale": "en",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "host_permissions": ["*://*/*"]
+}

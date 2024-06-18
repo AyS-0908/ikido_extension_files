@@ -1,0 +1,53 @@
+{
+  "appName": {
+    "message": "Générateur de Prompt IA"
+  },
+  "appDescription": {
+    "message": "Générez et collez des invites AI basées sur les sélections et les entrées de texte de l'utilisateur."
+  },
+  "profileTitle": {
+    "message": "Profil de l'utilisateur"
+  },
+  "languageLabel": {
+    "message": "Langue"
+  },
+  "roleLabel": {
+    "message": "Rôle"
+  },
+  "countryLabel": {
+    "message": "Pays"
+  },
+  "classLabel": {
+    "message": "Classe"
+  },
+  "subjectLabel": {
+    "message": "Matière"
+  },
+  "townLabel": {
+    "message": "Ville"
+  },
+  "birthDateLabel": {
+    "message": "Date de naissance"
+  },
+  "genderLabel": {
+    "message": "Genre"
+  },
+  "emailLabel": {
+    "message": "Email"
+  },
+  "saveProfileButton": {
+    "message": "Enregistrer le profil"
+  },
+  "promptTitle": {
+    "message": "Générer le prompt"
+  },
+  "detailsLabel": {
+    "message": "Détails"
+  },
+  "generateButton": {
+    "message": "Générer le prompt"
+  },
+  "validateButton": {
+    "message": "Valider"
+  }
+}

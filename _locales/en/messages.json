@@ -1,0 +1,53 @@
+{
+  "appName": {
+    "message": "AI Prompt Generator"
+  },
+  "appDescription": {
+    "message": "Generate and paste AI prompts based on user selections and text entries."
+  },
+  "profileTitle": {
+    "message": "User Profile"
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "roleLabel": {
+    "message": "Role"
+  },
+  "countryLabel": {
+    "message": "Country"
+  },
+  "classLabel": {
+    "message": "Class"
+  },
+  "subjectLabel": {
+    "message": "Subject"
+  },
+  "townLabel": {
+    "message": "Town"
+  },
+  "birthDateLabel": {
+    "message": "Birth Date"
+  },
+  "genderLabel": {
+    "message": "Gender"
+  },
+  "emailLabel": {
+    "message": "Email"
+  },
+  "saveProfileButton": {
+    "message": "Save Profile"
+  },
+  "promptTitle": {
+    "message": "Generate Prompt"
+  },
+  "detailsLabel": {
+    "message": "Details"
+  },
+  "generateButton": {
+    "message": "Generate Prompt"
+  },
+  "validateButton": {
+    "message": "Validate"
+  }
+}
