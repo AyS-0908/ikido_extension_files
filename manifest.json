@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "AI Prompt Generator",
+  "name": "AI for ALL",
   "version": "1.0",
-  "description": "Generate and paste AI prompts based on user selections and text entries.",
+  "description": "Generate best prompt for your use case.",
   "permissions": [
     "storage",
     "activeTab",
     "scripting"
   ],
-  "default_locale": "en",
+  "default_locale": "fr",
   "background": {
     "service_worker": "background.js"
   },
