@@ -1,0 +1,21 @@
+{
+    "user_profile_title": {
+      "message": "User Profile"
+    },
+    "label_language": {
+      "message": "Language"
+    },
+    "label_role": {
+      "message": "Role"
+    },
+    "button_submit": {
+      "message": "Submit"
+    },
+    "prompt_for_ai_title": {
+      "message": "Prompt for AI"
+    },
+    "button_generate": {
+      "message": "Generate Prompt"
+    }
+  }
+  
