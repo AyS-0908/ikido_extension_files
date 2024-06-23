@@ -1,21 +1,9 @@
 {
-  "appName": {
-    "message": "AI Prompt Generator"
+  "profileButton": {
+    "message": "Profile"
   },
-  "appDescription": {
-    "message": "Generate and paste AI prompts based on user selections and text entries."
-  },
-  "profileTitle": {
-    "message": "User Profile"
-  },
-  "languageLabel": {
-    "message": "Language"
-  },
-  "roleLabel": {
-    "message": "Role"
-  },
-  "countryLabel": {
-    "message": "Country"
+  "generateButton": {
+    "message": "Generate Prompt"
   },
   "classLabel": {
     "message": "Class"
@@ -23,31 +11,19 @@
   "subjectLabel": {
     "message": "Subject"
   },
-  "townLabel": {
-    "message": "Town"
+  "objectiveLabel": {
+    "message": "Objective"
   },
-  "birthDateLabel": {
-    "message": "Birth Date"
+  "needLabel": {
+    "message": "Need"
   },
-  "genderLabel": {
-    "message": "Gender"
+  "languageLabel": {
+    "message": "Response Language"
   },
-  "emailLabel": {
-    "message": "Email"
+  "detailsPlaceholder": {
+    "message": "Enter details..."
   },
   "saveProfileButton": {
     "message": "Save Profile"
-  },
-  "promptTitle": {
-    "message": "Generate Prompt"
-  },
-  "detailsLabel": {
-    "message": "Details"
-  },
-  "generateButton": {
-    "message": "Generate Prompt"
-  },
-  "validateButton": {
-    "message": "Validate"
   }
 }

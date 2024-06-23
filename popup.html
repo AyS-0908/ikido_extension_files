@@ -2,31 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><span data-i18n="appName"></span></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="popup.js" type="module"></script>
+  <title>AI Prompt Generator</title>
 </head>
 <body>
-  <div id="main">
-    <h1 data-i18n="promptTitle"></h1>
-    <button id="profileButton" data-i18n="saveProfileButton"></button>
-    <div id="promptSection" style="display:none;">
-      <h2 data-i18n="promptTitle"></h2>
-      <label for="classSelector" data-i18n="classLabel"></label>
+  <div id="main-content">
+    <button id="profileButton">Profile</button>
+    <div id="promptSection" style="display: none;">
       <select id="classSelector"></select>
-      <label for="subjectSelector" data-i18n="subjectLabel"></label>
       <select id="subjectSelector"></select>
-      <label for="objectiveSelector" data-i18n="objectiveLabel"></label>
       <select id="objectiveSelector"></select>
-      <label for="needSelector" data-i18n="needLabel"></label>
       <select id="needSelector"></select>
-      <label for="languageSelector" data-i18n="languageLabel"></label>
       <select id="languageSelector"></select>
-      <label for="details" data-i18n="detailsLabel"></label>
-      <textarea id="details"></textarea>
-      <button id="generateButton" data-i18n="generateButton"></button>
+      <textarea id="details" placeholder="Enter details..."></textarea>
+      <button id="generateButton">Generate Prompt</button>
     </div>
+    <div id="loadingIndicator" style="display: none;">Loading...</div>
   </div>
-  <script src="popup.js"></script>
-  <script src="i18n.js"></script>
 </body>
 </html>

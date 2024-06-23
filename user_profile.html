@@ -2,33 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><span data-i18n="profileTitle"></span></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="user_profile.js" defer></script>
+  <title>User Profile</title>
 </head>
 <body>
-  <div id="profile">
-    <h1 data-i18n="profileTitle"></h1>
-    <label for="language" data-i18n="languageLabel"></label>
-    <select id="language"></select>
-    <label for="role" data-i18n="roleLabel"></label>
-    <select id="role"></select>
-    <label for="country" data-i18n="countryLabel"></label>
-    <select id="country"></select>
-    <label for="class" data-i18n="classLabel"></label>
-    <select id="class" multiple></select>
-    <label for="subject" data-i18n="subjectLabel"></label>
-    <select id="subject" multiple></select>
-    <label for="town" data-i18n="townLabel"></label>
+  <div id="profile-content">
+    <h1>Set Up Your Profile</h1>
+    <label for="language">Language:</label>
+    <select id="language">
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+    </select>
+    <label for="role">Role:</label>
+    <select id="role">
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+    </select>
+    <label for="country">Country:</label>
+    <select id="country">
+      <option value="us">United States</option>
+      <option value="fr">France</option>
+      <!-- Additional country options as specified -->
+    </select>
+    <label for="class">Class:</label>
+    <select id="class" multiple>
+      <!-- Class options will be dynamically populated based on country -->
+    </select>
+    <label for="subject">Subject:</label>
+    <select id="subject" multiple>
+      <!-- Subject options will be dynamically populated based on language -->
+    </select>
+    <label for="town">Town:</label>
     <input type="text" id="town">
-    <label for="birthDate" data-i18n="birthDateLabel"></label>
+    <label for="birthDate">Birth Date:</label>
     <input type="date" id="birthDate">
-    <label for="gender" data-i18n="genderLabel"></label>
-    <select id="gender"></select>
-    <label for="email" data-i18n="emailLabel"></label>
+    <label for="gender">Gender:</label>
+    <select id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <label for="email">Email:</label>
     <input type="email" id="email">
-    <button id="saveProfile" data-i18n="saveProfileButton"></button>
+    <button id="saveProfile">Save Profile</button>
   </div>
-  <script src="userProfile.js"></script>
-  <script src="i18n.js"></script>
 </body>
 </html>

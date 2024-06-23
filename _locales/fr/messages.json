@@ -1,21 +1,9 @@
 {
-  "appName": {
-    "message": "Générateur de Prompt IA"
+  "profileButton": {
+    "message": "Profil"
   },
-  "appDescription": {
-    "message": "Générez et collez des invites AI basées sur les sélections et les entrées de texte de l'utilisateur."
-  },
-  "profileTitle": {
-    "message": "Profil de l'utilisateur"
-  },
-  "languageLabel": {
-    "message": "Langue"
-  },
-  "roleLabel": {
-    "message": "Rôle"
-  },
-  "countryLabel": {
-    "message": "Pays"
+  "generateButton": {
+    "message": "Générer une invite"
   },
   "classLabel": {
     "message": "Classe"
@@ -23,31 +11,19 @@
   "subjectLabel": {
     "message": "Matière"
   },
-  "townLabel": {
-    "message": "Ville"
+  "objectiveLabel": {
+    "message": "Objectif"
   },
-  "birthDateLabel": {
-    "message": "Date de naissance"
+  "needLabel": {
+    "message": "Besoin"
   },
-  "genderLabel": {
-    "message": "Genre"
+  "languageLabel": {
+    "message": "Langue de réponse"
   },
-  "emailLabel": {
-    "message": "Email"
+  "detailsPlaceholder": {
+    "message": "Entrez les détails..."
   },
   "saveProfileButton": {
     "message": "Enregistrer le profil"
-  },
-  "promptTitle": {
-    "message": "Générer le prompt"
-  },
-  "detailsLabel": {
-    "message": "Détails"
-  },
-  "generateButton": {
-    "message": "Générer le prompt"
-  },
-  "validateButton": {
-    "message": "Valider"
   }
 }
