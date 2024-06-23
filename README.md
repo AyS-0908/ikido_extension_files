@@ -63,8 +63,8 @@ A Chrome extension that generates customized prompts automatically for students 
 
 ### Screenshots/GIFs
 
-![Profile Setup](path/to/screenshot1.png)
-![Prompt Generation](path/to/screenshot2.png)
+![Profile Setup](images/profile-setup.png)
+![Prompt Generation](images/prompt-setup.png)
 
 ## Development
 
