@@ -64,6 +64,12 @@ A Chrome extension that generates customized prompts automatically for students 
 ### Screenshots/GIFs
 
 ![Profile Setup](images/profile-setup.png)
+
+User Interface:
+The picture below illustrates the expectations in terms of:
+• User Interface colors
+• Selectors button’s style.
+
 ![Prompt Generation](images/prompt-setup.png)
 
 ## Development
@@ -173,3 +179,4 @@ This project is licensed under the MIT License.
 
 - [Aymard de Scorbiac](https://github.com/AyS-0908)
 - [Sami Mhidia](https://github.com/samimhidia1)
+
